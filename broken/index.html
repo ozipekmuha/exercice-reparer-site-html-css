@@ -1,0 +1,140 @@
+
+<html>
+<head>
+  <meta charset="utf-">
+  <title>Site</title>
+
+  <meta name="description" content="">
+  <style>
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font: 14px Arial, sans-serif; color: #222; background: #fff; }
+
+
+    .top { background: #f4e4c1; border-bottom: 3px solid #e0d2b8; }
+    .wrap { width: 980px; margin: 0 auto; }
+    .brand { float: left; height: 80px; padding: 20px 0; }
+    .brand img { height: 40px; }
+    .menu { float: right; padding-top: 35px; }
+    .menu span { margin-left: 16px; font-weight: bold; cursor: pointer; }
+    .clear { clear: both; }
+
+   
+    .hero { height: ; background: url('paintTradition.jpg') center no-repeat; background-size: cover; }
+    .hero .t { padding-top: 120px; text-align: center; }
+
+    .btn { background: #7b3f00; color: #fff; padding: 10px 16px; text-decoration: none; display: inline-block; border-radius: 4px; }
+
+    .bloc-title { text-align: center; font-size: 28px; padding: 18px 0; }
+
+    
+    .prod table { margin: 0 auto; border-collapse: separate; border-spacing: 16px; }
+    .prod td { border: 1px solid #ddd; padding: 12px; width: 300px; vertical-align: top; }
+    .prod img { display: block; width: 100%; height: auto; }
+
+    
+    .info { margin: 20px auto; width: 980px; border-collapse: separate; border-spacing: 0; }
+    .info td { border: 1px solid #eee; padding: 14px; }
+
+
+    .quotes { margin: 0 auto 20px; width: 980px; }
+    .quotes li { margin: 8px 0; padding: 8px 12px; border-left: 4px solid #7b3f00; list-style: none; background: #fff; }
+
+   
+    .contact { width: 980px; margin: 0 auto 30px; }
+    .contact input, .contact textarea, .contact button {
+      display: block; width: 100%; margin: 8px 0; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font: inherit;
+    }
+
+    footer { background: #f4e4c1; border-top: 3px solid #e0d2b8; text-align: center; padding: 20px; }
+    footer img { height: 36px; margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap">
+    <div class="brand"><img src="logo.png" alt=""></div>
+    <div class="menu">
+
+      <span>Accueil</span>
+      <span>Produits</span>
+      <span>À propos</span>
+      <span>Contact</span>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="t">
+    <center><b><font size="2">Boulangerie Dupont – Nancy</font></b></center>
+    <center><i>Du pain frais, tous les matins — Artisan depuis 1999</i></center>
+    <center style="margin-top: 10px;"><a class="btn" href="#">Voir les produits</a></center>
+  </div>
+</div>
+
+<h1 class="bloc-title">Nos pains</h1>
+<div class="prod">
+  <table>
+    <tr>
+      <td>
+        <h1>Pain Tradition</h1>
+        <img src="paintTradition.jpg">
+        <p>Farine, eau, sel. C'est tout ! Disponible tous les jours.</p>
+        <p><a class="btn" href="#">Commander</a></p>
+      </td>
+      <td>
+        <b style="font-size: 22px;">Baguette</b>
+        <img src="baguette.jpg">
+        <p>Craquante dehors, moelleuse dedans.</p>
+        <p><a class="btn" href="#">Commander</a></p>
+      </td>
+      <td>
+        <h3>Pain complet</h3>
+        <img src="painComplet.jpg">
+        <p>Riche en fibres. Sans additifs.</p>
+        <p><a class="btn" href="#">Commander</a></p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<h2 class="bloc-title">À propos</h2>
+<table class="info">
+  <tr>
+    <td>
+      <b>Notre histoire</b><br><br>
+      Depuis 1999, nous cuisons nos pains à la main. Qualité & tradition d'abord.
+    </td>
+    <td>
+      <b>Adresse</b><br>
+      12 rue du Four, 54000 Nancy<br><br>
+      <b>Horaires</b><br>
+      Lun–Dim 6h–20h
+    </td>
+  </tr>
+</table>
+
+<h2 class="bloc-title">Témoignages</h2>
+<ul class="quotes">
+  <li>« La meilleure baguette de Nancy ! »</li>
+  <li>« Accueil chaleureux et pains délicieux. »</li>
+</ul>
+
+<h2 class="bloc-title">Contact</h2>
+<div class="contact">
+  <input type="text">
+  <input type="text" placeholder="Email">
+  <textarea placeholder="Message" rows="4"></textarea>
+  <button class="btn" type="button"></button>
+</div>
+
+<footer>
+  <img src="logo.png" alt="">
+  <p>© Boulangerie Dupont – Nancy</p>
+  <a href="http://facebook.com">Facebook</a> | <a href="http://instagram.com">Instagram</a>
+</footer>
+
+</body>
+</html>
